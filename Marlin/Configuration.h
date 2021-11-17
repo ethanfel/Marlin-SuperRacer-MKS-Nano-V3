@@ -483,9 +483,9 @@
   //#define PID_EDIT_MENU         // Add PID editing to the "Advanced Settings" menu. (~700 bytes of PROGMEM)
   //#define PID_AUTOTUNE_MENU     // Add PID auto-tuning to the "Advanced Settings" menu. (~250 bytes of PROGMEM)
   //#define PID_PARAMS_PER_HOTEND // Uses separate PID parameters for each extruder (useful for mismatched extruders)                               // Set/get with gcode: M301 E[extruder number, 0-2]
-  #define DEFAULT_Kp   11.20
-  #define DEFAULT_Ki   0.60
-  #define DEFAULT_Kd   51.99
+  #define DEFAULT_Kp   13.7
+  #define DEFAULT_Ki   0.48
+  #define DEFAULT_Kd   70.22
   
 #endif // PIDTEMP
 
